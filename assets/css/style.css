@@ -1,0 +1,40 @@
+body {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(120, 223, 236);
+}
+.jumbotron{
+    height: 100px;
+}
+.header-container {
+    background-color: rgb(245, 154, 79);
+    padding: 0;
+    margin: 0;
+    width: 400px;
+
+}
+.row{
+    margin-left: 15px;
+}
+.main-container{
+    margin-left: 10px;
+}
+.text-center{
+    color:aqua;
+}
+.card{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+p{
+    color: green;
+}
+h2{
+    color: green;
+}
+h1,h4{
+    color: blue;
+}

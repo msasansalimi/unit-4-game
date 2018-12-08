@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <!--Bootsttrap CSS-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--Header Jumbotron!-->
+    <div class="main-container">
+        <div class="jumbotron">
+            <div class="header-container">
+                <h1 class="text-center"><strong> Crystal Collector!</strong></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2><strong>Instruction!</strong></h2>
+                        <p>You will be given a random number at the start of the game.</p>
+                        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of
+                            points to your total score.</p>
+                        <p>You win the game by matching your total score to random number,you loose the game if your
+                            total score goes above the random number.</p>
+                        <p>The value of each crystal is hidden from you until you click in it.</p>
+                        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Computer Score:<span id="computerScore"></span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Wins:<span id="wins">0</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Losses:<span id="losses">0</span></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body crystal-image" id="blue" >
+                        <img src="assets/images/Blue_Crystal.png"  alt=""  width="100px">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body crystal-image" id="green">
+                        <img src="assets/images/Green_Crystal.png"    alt=""  width="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body crystal-image" id="red">
+                        <img src="assets/images/Red_Crystal.png"   alt=""  width="100px">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="card">
+                    <div class="card-body crystal-image" id="purple">
+                        <img src="assets/images/Purple_Crystal.png"  alt=""  width="100px">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Your total score is:</h4>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1><span id="totalScoreIs">0</span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+    
+
+
+</body>
+
+</html>
