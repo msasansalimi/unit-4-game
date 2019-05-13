@@ -26,3 +26,6 @@ The player will have to guess the answer, just like in Word Guess. This time, th
      * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. Of course, the user's score (and score counter) will reset to zero.
 
    * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
+   
+   ![Screen Shot 2019-05-13 at 12 43 02 PM](https://user-images.githubusercontent.com/44353449/57639428-ed0e2600-757d-11e9-8480-3138d3cff66d.png)
+![Screen Shot 2019-05-13 at 12 43 54 PM](https://user-images.githubusercontent.com/44353449/57639437-f0091680-757d-11e9-9997-643b6a7d9be8.png)
